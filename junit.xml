@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="2" failures="1" time="3.051">
+  <testsuite name="Favorite Movie Directory" errors="0" failures="1" skipped="0" timestamp="2023-03-30T20:12:33" time="2.467" tests="2">
+    <testcase classname="Favorite Movie Directory should not initially show the no result message or list" name="Favorite Movie Directory should not initially show the no result message or list" time="0.11">
+    </testcase>
+    <testcase classname="Favorite Movie Directory should add a row with valid data and not show the no result message" name="Favorite Movie Directory should add a row with valid data and not show the no result message" time="0.054">
+      <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;moviesList&quot;]
+
+&lt;body&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;h8k-navbar
+        header=&quot;Favorite Movie Directory&quot;
+      /&gt;
+      &lt;div
+        class=&quot;layout-row justify-content-center mt-100&quot;
+      &gt;
+        &lt;div
+          class=&quot;w-30 mr-75&quot;
+        &gt;
+          &lt;section&gt;
+            &lt;div
+              class=&quot;card pa-30&quot;
+            &gt;
+              &lt;form&gt;
+                &lt;div
+                  class=&quot;layout-column mb-15&quot;
+                &gt;
+                  &lt;label
+                    class=&quot;mb-3&quot;
+                    for=&quot;name&quot;
+                  &gt;
+                    Movie Name
+                  &lt;/label&gt;
+                  &lt;input
+                    data-testid=&quot;nameInput&quot;
+                    id=&quot;name&quot;
+                    placeholder=&quot;Enter Movie Name&quot;
+                    type=&quot;text&quot;
+                  /&gt;
+                &lt;/div&gt;
+                &lt;div
+                  class=&quot;layout-column mb-15&quot;
+                &gt;
+                  &lt;label
+                    class=&quot;mb-3&quot;
+                    for=&quot;ratings&quot;
+                  &gt;
+                    Ratings
+                  &lt;/label&gt;
+                  &lt;input
+                    data-testid=&quot;ratingsInput&quot;
+                    id=&quot;ratings&quot;
+                    placeholder=&quot;Enter Rating on a scale of 1 to 100&quot;
+                    type=&quot;number&quot;
+                  /&gt;
+                &lt;/div&gt;
+                &lt;div
+                  class=&quot;layout-column mb-30&quot;
+                &gt;
+                  &lt;label
+                    class=&quot;mb-3&quot;
+                    for=&quot;duration&quot;
+                  &gt;
+                    Duration
+                  &lt;/label&gt;
+                  &lt;input
+                    data-testid=&quot;durationInput&quot;
+                    id=&quot;duration&quot;
+                    placeholder=&quot;Enter duration in hours or minutes&quot;
+                    type=&quot;text&quot;
+                  /&gt;
+                &lt;/div&gt;
+                &lt;div
+                  class=&quot;layout-row justify-content-end&quot;
+                &gt;
+                  &lt;button
+                    class=&quot;mx-0&quot;
+                    data-testid=&quot;addButton&quot;
+                    type=&quot;submit&quot;
+                  &gt;
+                    Add Movie
+                  &lt;/button&gt;
+                &lt;/div&gt;
+              &lt;/form&gt;
+            &lt;/div&gt;
+          &lt;/section&gt;
+        &lt;/div&gt;
+        &lt;div
+          class=&quot;layout-column w-30&quot;
+        &gt;
+          &lt;section
+            class=&quot;layout-row justify-content-center mb-40&quot;
+          &gt;
+            &lt;input
+              class=&quot;w-75 py-2&quot;
+              data-testid=&quot;search&quot;
+              placeholder=&quot;Search for movie by name&quot;
+              type=&quot;text&quot;
+            /&gt;
+          &lt;/section&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+    at Object.getElementError (/Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/@testing-library/dom/dist/config.js:37:19)
+    at /Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/@testing-library/dom/dist/query-helpers.js:90:38
+    at /Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/@testing-library/dom/dist/query-helpers.js:62:17
+    at getByTestId (/Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/@testing-library/dom/dist/query-helpers.js:111:19)
+    at Object.&lt;anonymous&gt; (/Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/src/App.test.js:66:12)
+    at Object.asyncJestTest (/Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /Users/agustin.gomez/Desktop/test/3b3dbf7a-e4b2-4e88-9902-3fe8ac415f24/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
